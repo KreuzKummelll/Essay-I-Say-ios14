@@ -126,8 +126,7 @@ struct ContentView: View {
                                 }
                                 .padding(.horizontal, 8)
                                 .padding(.vertical, 8)
-                                .background(Color.black)
-//                                .clipShape(Circle())
+                               
                                 
                                 .offset(x: 0, y: -40)
                             
@@ -155,8 +154,6 @@ struct ContentView: View {
                                 }
                                 .padding(.horizontal, 8)
                                 .padding(.vertical, 8)
-                                .background(Color.black)
-//                                .clipShape(Circle())
                                 
                                 .sheet(isPresented: self.$isShowingLog, onDismiss: {
                                     withAnimation {
