@@ -15,12 +15,12 @@
 		2A8A92DF24AD3BC100134B59 /* Essay_I_Say_ios14UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8A92DE24AD3BC100134B59 /* Essay_I_Say_ios14UITests.swift */; };
 		2A8A92F124AD3D4C00134B59 /* EndedQuestionClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 2A8A92EC24AD3D4C00134B59 /* EndedQuestionClassifier.mlmodel */; };
 		2A8A92F224AD3D4C00134B59 /* AspectClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 2A8A92ED24AD3D4C00134B59 /* AspectClassifier.mlmodel */; };
-		2A8A92F324AD3D4C00134B59 /* Voice.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 2A8A92EE24AD3D4C00134B59 /* Voice.mlmodel */; };
 		2A8A92F424AD3D4C00134B59 /* TimeClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 2A8A92EF24AD3D4C00134B59 /* TimeClassifier.mlmodel */; };
 		2A8A92F524AD3D4C00134B59 /* EssayClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 2A8A92F024AD3D4C00134B59 /* EssayClassifier.mlmodel */; };
 		2A920D0124AD4FD0000C803A /* EssayISay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A920D0024AD4FD0000C803A /* EssayISay.swift */; };
 		2A920D0324AD5090000C803A /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A920D0224AD5090000C803A /* View+Extensions.swift */; };
 		2A9F3FB624AE977000ED2FAB /* ClarifyingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9F3FB524AE977000ED2FAB /* ClarifyingButton.swift */; };
+		2AFF0FC624AFD22200A31E9E /* VoiceClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 2AFF0FC524AFD22200A31E9E /* VoiceClassifier.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,12 +55,12 @@
 		2A8A92E024AD3BC100134B59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2A8A92EC24AD3D4C00134B59 /* EndedQuestionClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = EndedQuestionClassifier.mlmodel; sourceTree = "<group>"; };
 		2A8A92ED24AD3D4C00134B59 /* AspectClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = AspectClassifier.mlmodel; sourceTree = "<group>"; };
-		2A8A92EE24AD3D4C00134B59 /* Voice.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Voice.mlmodel; sourceTree = "<group>"; };
 		2A8A92EF24AD3D4C00134B59 /* TimeClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = TimeClassifier.mlmodel; sourceTree = "<group>"; };
 		2A8A92F024AD3D4C00134B59 /* EssayClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = EssayClassifier.mlmodel; sourceTree = "<group>"; };
 		2A920D0024AD4FD0000C803A /* EssayISay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssayISay.swift; sourceTree = "<group>"; };
 		2A920D0224AD5090000C803A /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
 		2A9F3FB524AE977000ED2FAB /* ClarifyingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClarifyingButton.swift; sourceTree = "<group>"; };
+		2AFF0FC524AFD22200A31E9E /* VoiceClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = VoiceClassifier.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,11 +111,11 @@
 		2A8A92C024AD3BC000134B59 /* Essay I Say-ios14 */ = {
 			isa = PBXGroup;
 			children = (
+				2AFF0FC524AFD22200A31E9E /* VoiceClassifier.mlmodel */,
 				2A8A92ED24AD3D4C00134B59 /* AspectClassifier.mlmodel */,
 				2A8A92EC24AD3D4C00134B59 /* EndedQuestionClassifier.mlmodel */,
 				2A8A92F024AD3D4C00134B59 /* EssayClassifier.mlmodel */,
 				2A8A92EF24AD3D4C00134B59 /* TimeClassifier.mlmodel */,
-				2A8A92EE24AD3D4C00134B59 /* Voice.mlmodel */,
 				2A8A92C124AD3BC000134B59 /* Essay_I_Say_ios14App.swift */,
 				2A8A92C324AD3BC000134B59 /* ContentView.swift */,
 				2A9F3FB524AE977000ED2FAB /* ClarifyingButton.swift */,
@@ -283,11 +283,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A8A92F324AD3D4C00134B59 /* Voice.mlmodel in Sources */,
 				2A920D0324AD5090000C803A /* View+Extensions.swift in Sources */,
 				2A8A92C424AD3BC000134B59 /* ContentView.swift in Sources */,
 				2A8A92F524AD3D4C00134B59 /* EssayClassifier.mlmodel in Sources */,
 				2A8A92F224AD3D4C00134B59 /* AspectClassifier.mlmodel in Sources */,
+				2AFF0FC624AFD22200A31E9E /* VoiceClassifier.mlmodel in Sources */,
 				2A8A92C224AD3BC000134B59 /* Essay_I_Say_ios14App.swift in Sources */,
 				2A920D0124AD4FD0000C803A /* EssayISay.swift in Sources */,
 				2A9F3FB624AE977000ED2FAB /* ClarifyingButton.swift in Sources */,
